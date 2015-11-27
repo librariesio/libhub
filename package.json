@@ -1,0 +1,27 @@
+{
+  "name": "libhub",
+  "version": "0.1.0",
+  "description": "Libraries.io Simple GitHub Client",
+  "main": "libhub.js",
+  "engines": {
+    "node": "4.2.x"
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- test/",
+    "test": "VCR_MODE=playback mocha"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Mauro Pompilio",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "parse-link-header": "^0.4.1",
+    "request-promise": "^1.0.2"
+  },
+  "devDependencies": {
+    "sepia": "^2.0.1",
+    "sinon": "^1.17.2"
+  }
+}

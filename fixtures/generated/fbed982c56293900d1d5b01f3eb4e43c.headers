@@ -1,0 +1,44 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Fri, 27 Nov 2015 15:43:44 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "279644",
+    "status": "200 OK",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4985",
+    "x-ratelimit-reset": "1448642152",
+    "cache-control": "private, max-age=60, s-maxage=60",
+    "last-modified": "Fri, 27 Nov 2015 07:43:31 GMT",
+    "etag": "\"795e929444e33391570789efe36bde0a\"",
+    "x-poll-interval": "60",
+    "x-oauth-scopes": "gist, repo, user",
+    "x-accepted-oauth-scopes": "repo",
+    "vary": "Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding",
+    "x-github-media-type": "github.v3; format=json",
+    "link": "<https://api.github.com/events?allPages=true&page=3&per_page=100>; rel=\"next\", <https://api.github.com/events?allPages=true&page=3&per_page=100>; rel=\"last\", <https://api.github.com/events?allPages=true&page=1&per_page=100>; rel=\"first\", <https://api.github.com/events?allPages=true&page=1&per_page=100>; rel=\"prev\"",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "deny",
+    "content-security-policy": "default-src 'none'",
+    "access-control-allow-credentials": "true",
+    "access-control-expose-headers": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-served-by": "a241e1a8264a6ace03db946c85b92db3",
+    "x-github-request-id": "6D9525F5:16C55:2ABD718:56587A30"
+  },
+  "url": "https://api.github.com:443/events?allPages=true&page=2&per_page=100",
+  "time": 1292,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "User-Agent": "LibHub",
+      "Content-Type": "application/json",
+      "Accept": "application/vnd.github.v3+json",
+      "Authorization": "token ac7c8f9098be47d83ff695f857a6c847e6b15273",
+      "host": "api.github.com"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "statusCode": 201,
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Fri, 27 Nov 2015 15:43:38 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3005",
+    "status": "201 Created",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4992",
+    "x-ratelimit-reset": "1448642152",
+    "cache-control": "private, max-age=60, s-maxage=60",
+    "etag": "\"93c7dca3350180d5be820f9b7c7dfbfd\"",
+    "x-oauth-scopes": "gist, repo, user",
+    "x-accepted-oauth-scopes": "",
+    "location": "https://api.github.com/gists/8daca2cc5a191a3c6e7c",
+    "vary": "Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding",
+    "x-github-media-type": "github.v3; format=json",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "deny",
+    "content-security-policy": "default-src 'none'",
+    "access-control-allow-credentials": "true",
+    "access-control-expose-headers": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-served-by": "318e55760cf7cdb40e61175a4d36cd32",
+    "x-github-request-id": "6D9525F5:16C53:156443C:56587A2A"
+  },
+  "url": "http://api.github.com:443/gists",
+  "time": 618,
+  "request": {
+    "method": "POST",
+    "headers": {
+      "User-Agent": "LibHub",
+      "Content-Type": "application/json",
+      "Accept": "application/vnd.github.v3+json",
+      "Authorization": "token ac7c8f9098be47d83ff695f857a6c847e6b15273",
+      "host": "api.github.com",
+      "content-length": 73
+    }
+  }
+}

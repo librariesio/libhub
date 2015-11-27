@@ -1,0 +1,38 @@
+{
+  "statusCode": 204,
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Fri, 27 Nov 2015 15:43:41 GMT",
+    "status": "204 No Content",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4987",
+    "x-ratelimit-reset": "1448642152",
+    "x-oauth-scopes": "gist, repo, user",
+    "x-accepted-oauth-scopes": "",
+    "x-github-media-type": "github.v3; format=json",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "deny",
+    "content-security-policy": "default-src 'none'",
+    "access-control-allow-credentials": "true",
+    "access-control-expose-headers": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "vary": "Accept-Encoding",
+    "x-served-by": "2d7a5e35115884240089368322196939",
+    "x-github-request-id": "6D9525F5:16C58:2F3B12B:56587A2C"
+  },
+  "url": "http://api.github.com:443/gists/8daca2cc5a191a3c6e7c",
+  "time": 375,
+  "request": {
+    "method": "DELETE",
+    "headers": {
+      "User-Agent": "LibHub",
+      "Content-Type": "application/json",
+      "Accept": "application/vnd.github.v3+json",
+      "Authorization": "token ac7c8f9098be47d83ff695f857a6c847e6b15273",
+      "host": "api.github.com",
+      "content-length": 0
+    }
+  }
+}

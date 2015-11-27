@@ -1,0 +1,37 @@
+{
+  "statusCode": 404,
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Fri, 27 Nov 2015 15:43:45 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "77",
+    "status": "404 Not Found",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4983",
+    "x-ratelimit-reset": "1448642152",
+    "x-oauth-scopes": "gist, repo, user",
+    "x-accepted-oauth-scopes": "repo",
+    "x-github-media-type": "github.v3; format=json",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "deny",
+    "content-security-policy": "default-src 'none'",
+    "access-control-allow-credentials": "true",
+    "access-control-expose-headers": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-github-request-id": "6D9525F5:16C54:1E92A55:56587A31"
+  },
+  "url": "http://api.github.com:443/gists/invalid?page=1&per_page=100",
+  "time": 338,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "User-Agent": "LibHub",
+      "Content-Type": "application/json",
+      "Accept": "application/vnd.github.v3+json",
+      "Authorization": "token ac7c8f9098be47d83ff695f857a6c847e6b15273",
+      "host": "api.github.com"
+    }
+  }
+}
