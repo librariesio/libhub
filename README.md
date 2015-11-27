@@ -15,7 +15,7 @@ Libraries.io minimalistic GitHub client.
 
 ## Getting Started
 
-```
+```javascript
   const Client = require('libhub')
   let github = new Client(token)
 
@@ -38,7 +38,7 @@ Available methods: `get`, `post`, `patch`, `put`, `delete`
 
 ### Error handling
 
-```
+```javascript
   // 3xx/4xx/5xx errors
   github.get(`/repos/librariesio/${invalidId}`)
   .then( (repo) => {
@@ -53,7 +53,7 @@ Available methods: `get`, `post`, `patch`, `put`, `delete`
 
   The Client constructor takes an optional cache object that should have a `get` and a `set` method. Both should return a Promise.
 
-```
+```javascript
   const Client = require('libhub')
   const InMemoryCache = require('./test/cache')
   let github = new Client(token, { cache: InMemoryCache })
@@ -66,7 +66,7 @@ Available methods: `get`, `post`, `patch`, `put`, `delete`
 
 ## Pagination
 
-```
+```javascript
   github.get(`/events`, { allPages: true })
   .then( (events) => {
     console.log(events.length) // All the user public events ~300
@@ -79,7 +79,7 @@ Well, simplicity. Most GitHub clients I used implement unnecessary abstractions.
 
 With LibHub, you just need to lookup the resource URL and use it. Also, ES6 interpolation.
 
-```
+```javascript
   github.get(`/repos/${owner}/${repo}/branches/${branch}`)
 ```
 
