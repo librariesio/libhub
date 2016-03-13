@@ -17,9 +17,9 @@
   "author": "Mauro Pompilio",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.0.5",
+    "bluebird": "^3.3.4",
     "parse-link-header": "^0.4.1",
-    "request-promise": "^1.0.2"
+    "request-promise": "^2.0.1"
   },
   "devDependencies": {
     "sepia": "^2.0.1",
