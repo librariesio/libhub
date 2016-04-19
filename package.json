@@ -19,7 +19,7 @@
   "dependencies": {
     "bluebird": "^3.3.4",
     "parse-link-header": "^0.4.1",
-    "request-promise": "^2.0.1"
+    "request-promise": "^3.0.0"
   },
   "devDependencies": {
     "sepia": "^2.0.1",
