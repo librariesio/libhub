@@ -1,6 +1,6 @@
 {
   "name": "libhub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Libraries.io Simple GitHub Client",
   "repository": "https://github.com/librariesio/libhub",
   "main": "libhub.js",
