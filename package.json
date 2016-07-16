@@ -5,7 +5,7 @@
   "repository": "https://github.com/librariesio/libhub",
   "main": "libhub.js",
   "engines": {
-    "node": "4.2.x"
+    "node": "6.3"
   },
   "scripts": {
     "coverage": "istanbul cover _mocha -- test/",
