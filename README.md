@@ -1,5 +1,7 @@
 # LibHub
 
+:warning: This library is no longer used by https://libraries.io or maintained :warning:
+
 Libraries.io minimalistic GitHub client.
 
 ## Features
